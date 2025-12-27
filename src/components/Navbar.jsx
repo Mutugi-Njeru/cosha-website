@@ -15,7 +15,7 @@ const Navbar = () => {
   ];
 
   return (
-    <nav className="absolute top-0 left-1/2 -translate-x-1/2 z-10 mt-2 w-full max-w-4xl px-4">
+    <nav className="absolute top-0 left-1/2 -translate-x-1/2 z-20 mt-2 w-full max-w-4xl px-4">
       <div className="bg-somecream p-3 rounded-4xl shadow-md">
         {/* Top Row */}
         <div className="flex items-center justify-between">

@@ -1,12 +1,9 @@
-import React from 'react'
-import Navbar from './components/Navbar'
-import Hero from './components/Hero'
+import Homepage from './components/Homepage'
 
 const App = () => {
   return (
     <div>
-    <Hero/>
-      
+    <Homepage/>  
     </div>
   )
 }
