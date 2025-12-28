@@ -1,6 +1,4 @@
-import React from "react";
 import Navbar from "./Navbar";
-import woman from "../assets/trial1.png";
 import woman4 from "../assets/woman4.jpg";
 import Typewriter from "./Typewriter";
 

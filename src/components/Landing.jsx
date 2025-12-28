@@ -4,7 +4,7 @@ import BelowHero from './BelowHero'
 
 const Landing = () => {
   return (
-    <div className="relative bg-white">
+    <div className="relative bg-white" id='home'>
       <Hero />
       <BelowHero />
     </div>

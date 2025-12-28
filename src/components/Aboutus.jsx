@@ -4,7 +4,7 @@ import { ChartLine, CirclePlay, MonitorSmartphone, Users } from "lucide-react";
 
 const Aboutus = () => {
   return (
-    <section className="bg-white w-full py-16">
+    <section className="bg-white w-full py-16" id="about">
       <div className="max-w-7xl mx-auto px-6">
         {/* Main layout */}
         <div className="flex flex-col lg:flex-row items-center justify-center gap-10">
