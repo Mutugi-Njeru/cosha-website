@@ -8,16 +8,16 @@ const Contactus = () => {
         {/* LEFT SIDE */}
         <div className="w-full lg:w-1/2 space-y-6 text-center lg:text-left">
           <div className="flex gap-2 mb-4">
-            <CirclePlay className="h-4 w-4 text-gold" />
+            <CirclePlay className="h-4 w-4 text-darkcyan" />
             <p className="text-sm font-semibold text-gray-700">Contact Us</p>
           </div>
 
-          <p className="text-sm tracking-widest text-green-900 font-semibold">
+          <p className="text-sm tracking-widest text-greyturquoise font-semibold">
             WE'RE HERE TO HELP YOU
           </p>
 
-          <h2 className="relative text-4xl lg:text-5xl font-bold text-green-900 leading-tight">
-            <span className="absolute -left-4 top-2 h-10 w-1 bg-green-800 hidden lg:block" />
+          <h2 className="relative text-4xl lg:text-5xl font-bold text-darkcyan leading-tight">
+            <span className="absolute -left-4 top-2 h-10 w-1 bg-greyturquoise hidden lg:block" />
             Discuss Your <br />
             Chemical <br />
             Solution Needs
@@ -31,14 +31,14 @@ const Contactus = () => {
           {/* CONTACT INFO */}
           <div className="grid gap-4 pt-6 max-w-sm mx-auto lg:mx-0">
             <div className="flex items-center gap-4 bg-white p-4">
-              <Mail className="w-5 h-5 text-gold" />
+              <Mail className="w-5 h-5 text-greyturquoise" />
               <span className="text-sm text-gray-700">
                 info@cosha.co.ke
               </span>
             </div>
 
             <div className="flex items-center gap-4 bg-white p-4 ">
-              <Phone className="w-5 h-5 text-gold" />
+              <Phone className="w-5 h-5 text-greyturquoise" />
               <span className="text-sm text-gray-700">+254 700 000 000</span>
             </div>
           </div>

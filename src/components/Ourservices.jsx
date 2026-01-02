@@ -60,7 +60,7 @@ const Ourservices = () => {
       <div className="max-w-7xl mx-auto px-4 text-center">
         {/* Header */}
         <div className="flex items-center justify-center gap-2 mb-4">
-          <CirclePlay className="h-4 w-4 text-gold" />
+          <CirclePlay className="h-4 w-4 text-darkcyan" />
           <p className="text-sm font-semibold text-gray-700">Our Services</p>
         </div>
 
@@ -80,13 +80,13 @@ const Ourservices = () => {
               key={index}
               className={`relative rounded-2xl shadow-lg p-6 text-left
                 hover:-translate-y-2 hover:shadow-2xl transition duration-300
-                ${service.highlight ? "bg-darkgreen text-white" : "bg-white"}
+                ${service.highlight ? "bg-darkcyan text-white" : "bg-white"}
               `}
             >
               {/* Icon */}
               <div
                 className={`absolute -top-6 left-6 h-12 w-12 rounded-full flex items-center justify-center
-                  ${service.highlight ? "bg-green-700" : "bg-gold"}
+                  ${service.highlight ? "bg-greyturquoise" : "bg-gold"}
                 `}
               >
                 <LockKeyhole className="text-white" size={20} />

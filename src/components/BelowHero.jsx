@@ -10,7 +10,7 @@ const BelowHero = () => {
         <div
           className=" order-1 lg:order-1
       w-full lg:w-[42%]
-      rounded-3xl bg-green-900 p-6 sm:p-8 shadow-xl"
+      rounded-3xl bg-darkcyan p-6 sm:p-8 shadow-xl"
         >
           <h1 className="mb-3 text-xl font-semibold text-white">
             Always Update Every Day

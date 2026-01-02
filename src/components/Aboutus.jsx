@@ -34,12 +34,12 @@ const Aboutus = () => {
           <div className="w-full lg:w-1/2 flex flex-col space-y-6 text-center lg:text-left">
             {/* Section label */}
             <div className="flex items-center justify-center lg:justify-start gap-2 text-sm text-gray-500">
-              <CirclePlay className="h-4 w-4 text-gold" />
+              <CirclePlay className="h-4 w-4 text-darkcyan" />
               <span>About Company</span>
             </div>
 
             {/* Heading */}
-            <h2 className="text-2xl lg:text-3xl font-semibold leading-snug text-gray-900">
+            <h2 className="text-2xl lg:text-3xl font-semibold leading-snug text-darkcyan">
               We Are The Best Online <br className="hidden sm:block" />
               Payment Gateway Agency
             </h2>
@@ -69,7 +69,7 @@ const Aboutus = () => {
               </div>
 
               <div className="flex items-start gap-4">
-                <div className="border rounded-full w-12 h-12 flex items-center justify-center shadow-md text-gray-600 shrink-0">
+                <div className="border rounded-full w-12 h-12 flex items-center justify-center shadow-md text-greyturquoise shrink-0">
                   <MonitorSmartphone className="w-6 h-6" />
                 </div>
                 <div>
@@ -83,7 +83,7 @@ const Aboutus = () => {
               </div>
 
               <div className="flex items-start gap-4">
-                <div className="border rounded-full w-12 h-12 flex items-center justify-center shadow-md text-gray-600 shrink-0">
+                <div className="border rounded-full w-12 h-12 flex items-center justify-center shadow-md text-greyturquoise shrink-0">
                   <ChartLine className="w-6 h-6" />
                 </div>
                 <div>
@@ -102,28 +102,28 @@ const Aboutus = () => {
        <div className="mt-12 mb-4 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10 text-center">
   <div className="flex flex-col items-center justify-center p-6 bg-white ">
     <h1 className="text-4xl font-bold text-gray-800">
-      25<span className="text-gold">+</span>
+      25<span className="text-greyturquoise">+</span>
     </h1>
     <p className="mt-2 text-sm text-gray-500">Years Of Experience</p>
   </div>
   
   <div className="flex flex-col items-center justify-center p-6 bg-white">
     <h1 className="text-4xl font-bold text-gray-800">
-      3,452<span className="text-gold">+</span>
+      3,452<span className="text-greyturquoise">+</span>
     </h1>
     <p className="mt-2 text-sm text-gray-500">Total Transactions</p>
   </div>
   
   <div className="flex flex-col items-center justify-center p-6 bg-white ">
     <h1 className="text-4xl font-bold text-gray-800">
-      751<span className="text-gold">+</span>
+      751<span className="text-greyturquoise">+</span>
     </h1>
     <p className="mt-2 text-sm text-gray-500">Actual Users</p>
   </div>
   
   <div className="flex flex-col items-center justify-center p-6 bg-white ">
     <h1 className="text-4xl font-bold text-gray-800">
-      592<span className="text-gold">+</span>
+      592<span className="text-greyturquoise">+</span>
     </h1>
     <p className="mt-2 text-sm text-gray-500">Positive Reviews</p>
   </div>

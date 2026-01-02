@@ -5,4 +5,14 @@
   --color-gold: #AB7836;
    --color-lightgold: #9E6E30;
   --color-somecream: #F9F6F1;
+  --color-darkcyan: #072422;
+  --color-greyorange: #AA7736;
+  --color-lightorange: #F9F7F3;
+  --color-greyturquoise: #2D42EF;
+  --color-bordercolor: #FFFFFF;
+
+}
+:root {
+  --font-nav: "Poppins", sans-serif;
+  --font-heading: "Montserrat", sans-serif;
 }

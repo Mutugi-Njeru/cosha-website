@@ -16,7 +16,7 @@ const Navbar = () => {
 
   return (
     <nav className="absolute top-0 left-1/2 -translate-x-1/2 z-20 mt-2 w-full max-w-4xl px-4">
-      <div className="bg-somecream p-3 rounded-4xl shadow-md">
+      <div className="bg-lightorange p-3 rounded-4xl shadow-md">
         {/* Top Row */}
         <div className="flex items-center justify-between">
           {/* Logo */}
@@ -27,32 +27,38 @@ const Navbar = () => {
           />
 
           {/* Desktop Nav */}
-          <div className="hidden md:flex space-x-4 absolute left-1/2 -translate-x-1/2">
-            {navLinks.map((link) => (
-              <a
-                key={link.name}
-                href={link.href}
-                onClick={() => setActiveLink(link.name)}
-                className="relative px-1 py-2 text-sm font-bold text-black group"
-              >
-                <span className="relative z-10">{link.name}</span>
+        <div className="hidden md:flex space-x-6 absolute left-1/2 -translate-x-1/2">
+  {navLinks.map((link) => {
+    const isActive = activeLink === link.name;
 
-                {activeLink === link.name && (
-                  <span className="absolute bottom-0 left-0 w-full h-0.75 bg-linear-to-r from-gold via-amber-300 to-gold rounded-full"></span>
-                )}
+    return (
+      <a
+        key={link.name}
+        href={link.href}
+        onClick={() => setActiveLink(link.name)}
+        className="relative px-1 py-2 text-sm text-black group font-(--font-nav)"
+      >
+        <span className="relative z-10">{link.name}</span>
 
-                <span className="absolute bottom-0 left-0 w-0 h-0.75 bg-linear-to-r from-gold to-amber-300 transition-all duration-300 group-hover:w-full rounded-full"></span>
-              </a>
-            ))}
-          </div>
+        {/* Active underline */}
+        {isActive && (
+          <span className="absolute bottom-0 left-0 w-full h-0.5 bg-greyorange rounded-full" />
+        )}
+        {!isActive && (
+          <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-greyorange transition-all duration-300 group-hover:w-full rounded-full" />
+        )}
+      </a>
+    );
+  })}
+</div>
+
 
           {/* Desktop Button */}
          <button className="
   hidden md:flex items-center gap-2
-  px-5 py-2 rounded-full text-sm font-semibold text-white
-  bg-linear-to-r from-amber-400 via-yellow-500 to-amber-600
-  shadow-md hover:shadow-lg
-  transition-all duration-300
+  px-5 py-2 rounded-full text-sm text-white font-(--font-nav)
+  bg-darkcyan
+  shadow-md hover:shadow-lg hover:bg-greyorange cursor-pointer
   hover:brightness-110
 ">
   <CirclePlay size={16} />
@@ -85,7 +91,7 @@ const Navbar = () => {
               </a>
             ))}
 
-            <button className="flex items-center justify-center w-full bg-gold text-white px-4 py-2 rounded-full text-sm">
+            <button className="flex items-center justify-center w-full bg-darkcyan text-white px-4 py-2 rounded-full text-sm">
               <CirclePlay size={16} className="mr-2" />
               Get Quote
             </button>

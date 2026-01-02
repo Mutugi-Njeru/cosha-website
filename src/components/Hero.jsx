@@ -1,4 +1,5 @@
 import Navbar from "./Navbar";
+import woman6 from "../assets/Woman6.jpg";
 import woman4 from "../assets/woman4.jpg";
 import Typewriter from "./Typewriter";
 
@@ -11,7 +12,7 @@ const Hero = () => {
         {/* Right side */}
         <div className="w-full lg:w-5/12 relative order-1 lg:order-2">
           <img
-            src={woman4}
+            src={woman6}
             alt="Your image description"
             className="w-full h-auto lg:h-full object-cover"
           />
@@ -24,14 +25,14 @@ const Hero = () => {
                   text-center lg:text-left"
           >
             <p
-              className="text-3xl sm:text-4xl lg:text-5xl font-semibold 
-              tracking-tight leading-tight text-green-900"
+              className="text-3xl sm:text-4xl lg:text-5xl 
+              tracking-tight leading-tight text-darkcyan font-(--font-heading)"
             >
               JUST <Typewriter text="TECH-IT" />
             </p>
             <p
-              className="mt-2 text-lg sm:text-xl lg:text-2xl 
-                  text-gray-800 leading-snug"
+              className="mt-2 text-lg sm:text-xl lg:text-2xl font-semibold 
+                  text-greyturquoise leading-snug"
             >
               Unlocking the future, one byte at a time.
             </p>
@@ -55,7 +56,7 @@ const Hero = () => {
                     gap-3"
             >
               <button
-                className="shadow-xl bg-green-900 hover:bg-green-800 
+                className="shadow-xl bg-darkcyan hover:bg-greyorange 
                          text-white px-6 py-2 rounded-full text-sm 
                          transition-colors w-full sm:w-auto hover:cursor-pointer"
               >
@@ -64,7 +65,7 @@ const Hero = () => {
 
               <button
                 className="shadow-xl bg-white hover:bg-gray-100 
-                         text-gold px-6 py-2 rounded-full text-sm 
+                         text-gold px-6 py-2 rounded-full text-sm border
                          transition-colors w-full sm:w-auto hover:cursor-pointer"
               >
                 Learn More
